@@ -9,7 +9,7 @@ const SourceMapSource = require("webpack-sources").SourceMapSource;
 const RawSource = require("webpack-sources").RawSource;
 const RequestShortener = require("./lib/RequestShortener");
 const ModuleFilenameHelpers = require("./lib/ModuleFilenameHelpers");
-const uglify = require("uglify-js");
+const uglify = require("uglify-es");
 
 class UglifyJsPlugin {
 	constructor(options) {
