@@ -25,7 +25,7 @@
   "homepage": "https://github.com/Akkuma/webpack-uglify-harmony#readme",
   "dependencies": {
     "source-map": "^0.5.6",
-    "uglify-js": "github:mishoo/UglifyJS2#harmony",
+    "uglify-js-harmony": "^2.7.5",
     "webpack-sources": "^0.1.3"
   }
 }
